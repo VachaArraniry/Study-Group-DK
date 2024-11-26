@@ -1,0 +1,12 @@
+Errors :
+
+    1. initialization of 'FILE *' {aka 'struct _iobuf *'} from incompatible pointer type 'char *' 
+    - Warning ini terjadi karena kita belum deklarasi NULL untuk file yang di buat program
+
+    2. implicit declaration of function 'studentMenu'
+    - Warning ini terjadi karena fungsi tersebut tidak di prototype di awal
+
+    3. conflicting types for 'studentMenu'
+    - Warning ini terjadi karena prototype dan file yang dibuat conflict atau tidak sama
+
+    4. 
